@@ -71,11 +71,11 @@ while ($row = mysqli_fetch_array($result)) {
         <div class="container">
             <h3>Book Publisher: Book List</h3>
             <ul class="nav nav-tabs">
-                <li class="nav-item"><a class="nav-link active" href="#friends" data-toggle="tab">Friends</a></li>
-                <li class="nav-item"><a class="nav-link" href="#exploration" data-toggle="tab">Exploration</a></li>
-                <li class="nav-item"><a class="nav-link" href="#kindness" data-toggle="tab">Kindness</a></li>
-                <li class="nav-item"><a class="nav-link" href="#overflowing" data-toggle="tab">Overflowing</a></li>
-                <li class="nav-item"><a class="nav-link" href="#shiny" data-toggle="tab">Shiny</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#friends" data-toggle="tab">Action</a></li>
+                <li class="nav-item"><a class="nav-link" href="#exploration" data-toggle="tab">Fantasy</a></li>
+                <li class="nav-item"><a class="nav-link" href="#kindness" data-toggle="tab">Adventure</a></li>
+                <li class="nav-item"><a class="nav-link" href="#overflowing" data-toggle="tab">Horror</a></li>
+                <li class="nav-item"><a class="nav-link" href="#shiny" data-toggle="tab">Romance</a></li>
                 <li class="nav-item"><a class="nav-link" href="#learning" data-toggle="tab">Learning</a></li>
             </ul>
             <div class="tab-content">
@@ -85,7 +85,7 @@ while ($row = mysqli_fetch_array($result)) {
                     for ($i = 0; $i < count($arrFriends); $i++) {
                         ?>
                         <div class="row">
-                            <div class="col-md-4" ><a href="storyDetails.php?storyID=<?php echo $arrFriends[$i]['id'] ?>"><img class="img-thumbnail" src="images/<?php echo $arrFriends[$i]['picture'] ?>" alt="<?php echo $arrFriends[$i]['title'] ?>"> </a></div> 
+                            <div class="col-md-4" ><a href="storyDetails.php?storyID=<?php echo $arrFriends[$i]['id'] ?>"><img class="img-thumbnail" style="width: 80%; height: 80%" src="images/<?php echo $arrFriends[$i]['picture'] ?>" alt="<?php echo $arrFriends[$i]['title'] ?>"> </a></div> 
                             <div class="col-md-8" > 
                                 <h3><a href="storyDetails.php?storyID=<?php echo $arrFriends[$i]['id'] ?>"><?php echo $arrFriends[$i]['title'] ?></a></h3>
                                 <p><?php echo $arrFriends[$i]['content'] ?></p>
@@ -99,7 +99,7 @@ while ($row = mysqli_fetch_array($result)) {
                     for ($i = 0; $i < count($arrExploration); $i++) {
                         ?>
                         <div class="row">
-                            <div class="col-md-4" ><a href="storyDetails.php?storyID=<?php echo $arrExploration[$i]['id'] ?>"><img class="img-thumbnail" src="images/<?php echo $arrExploration[$i]['picture'] ?>" alt="<?php echo $arrExploration[$i]['title'] ?>"> </a></div> 
+                            <div class="col-md-4" ><a href="storyDetails.php?storyID=<?php echo $arrExploration[$i]['id'] ?>"><img class="img-thumbnail" style="width: 80%; height: 80%" src="images/<?php echo $arrExploration[$i]['picture'] ?>" alt="<?php echo $arrExploration[$i]['title'] ?>"> </a></div> 
                             <div class="col-md-8" > 
                                 <h3><a href="storyDetails.php?storyID=<?php echo $arrExploration[$i]['id'] ?>"><?php echo $arrExploration[$i]['title'] ?></a></h3>
                                 <p><?php echo $arrExploration[$i]['content'] ?></p>
@@ -113,7 +113,7 @@ while ($row = mysqli_fetch_array($result)) {
                     for ($i = 0; $i < count($arrKindness); $i++) {
                         ?>
                         <div class="row">
-                            <div class="col-md-4" ><a href="storyDetails.php?storyID=<?php echo $arrKindness[$i]['id'] ?>"><img class="img-thumbnail" src="images/<?php echo $arrKindness[$i]['picture'] ?>" alt="<?php echo $arrKindness[$i]['title'] ?>"> </a></div> 
+                            <div class="col-md-4" ><a href="storyDetails.php?storyID=<?php echo $arrKindness[$i]['id'] ?>"><img class="img-thumbnail" style="width: 80%; height: 80%" src="images/<?php echo $arrKindness[$i]['picture'] ?>" alt="<?php echo $arrKindness[$i]['title'] ?>"> </a></div> 
                             <div class="col-md-8" > 
                                 <h3><a href="storyDetails.php?storyID=<?php echo $arrKindness[$i]['id'] ?>"><?php echo $arrKindness[$i]['title'] ?></a></h3>
                                 <p><?php echo $arrKindness[$i]['content'] ?></p>
@@ -127,7 +127,7 @@ while ($row = mysqli_fetch_array($result)) {
                     for ($i = 0; $i < count($arrOverflowing); $i++) {
                         ?>
                         <div class="row">
-                            <div class="col-md-4" ><a href="storyDetails.php?storyID=<?php echo $arrOverflowing[$i]['id'] ?>"><img class="img-thumbnail" src="images/<?php echo $arrOverflowing[$i]['picture'] ?>" alt="<?php echo $arrOverflowing[$i]['title'] ?>"> </a></div> 
+                            <div class="col-md-4" ><a href="storyDetails.php?storyID=<?php echo $arrOverflowing[$i]['id'] ?>"><img class="img-thumbnail" style="width: 80%; height: 80%" src="images/<?php echo $arrOverflowing[$i]['picture'] ?>" alt="<?php echo $arrOverflowing[$i]['title'] ?>"> </a></div> 
                             <div class="col-md-8" > 
                                 <h3><a href="storyDetails.php?storyID=<?php echo $arrOverflowing[$i]['id'] ?>"><?php echo $arrOverflowing[$i]['title'] ?></a></h3>
                                 <p><?php echo $arrOverflowing[$i]['content'] ?></p>
@@ -141,7 +141,7 @@ while ($row = mysqli_fetch_array($result)) {
                     for ($i = 0; $i < count($arrShiny); $i++) {
                         ?>
                         <div class="row">
-                            <div class="col-md-4" ><a href="storyDetails.php?storyID=<?php echo $arrShiny[$i]['id'] ?>"><img class="img-thumbnail" src="images/<?php echo $arrShiny[$i]['picture'] ?>" alt="<?php echo $arrShiny[$i]['title'] ?>"> </a></div> 
+                            <div class="col-md-4" ><a href="storyDetails.php?storyID=<?php echo $arrShiny[$i]['id'] ?>"><img class="img-thumbnail" style="width: 80%; height: 80%" src="images/<?php echo $arrShiny[$i]['picture'] ?>" alt="<?php echo $arrShiny[$i]['title'] ?>"> </a></div> 
                             <div class="col-md-8" > 
                                 <h3><a href="storyDetails.php?storyID=<?php echo $arrShiny[$i]['id'] ?>"><?php echo $arrShiny[$i]['title'] ?></a></h3>
                                 <p><?php echo $arrShiny[$i]['content'] ?></p>
@@ -155,7 +155,7 @@ while ($row = mysqli_fetch_array($result)) {
                     for ($i = 0; $i < count($arrLearning); $i++) {
                         ?>
                         <div class="row">
-                            <div class="col-md-4" ><a href="storyDetails.php?storyID=<?php echo $arrLearning[$i]['id'] ?>"><img class="img-thumbnail" src="images/<?php echo $arrLearning[$i]['picture'] ?>" alt="<?php echo $arrLearning[$i]['title'] ?>"> </a></div> 
+                            <div class="col-md-4" ><a href="storyDetails.php?storyID=<?php echo $arrLearning[$i]['id'] ?>"><img class="img-thumbnail" style="width: 80%; height: 80%" src="images/<?php echo $arrLearning[$i]['picture'] ?>" alt="<?php echo $arrLearning[$i]['title'] ?>"> </a></div> 
                             <div class="col-md-8" > 
                                 <h3><a href="storyDetails.php?storyID=<?php echo $arrLearning[$i]['id'] ?>"><?php echo $arrLearning[$i]['title'] ?></a></h3>
                                 <p><?php echo $arrLearning[$i]['content'] ?></p>

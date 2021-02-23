@@ -1,3 +1,4 @@
+<script src="js/navbar.js" type="text/javascript"></script>
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <a class="navbar-brand" href="index.php"><strong>Book Publisher <i class="fa fa-book-open" aria-hidden="true"></i></strong></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,6 +38,8 @@
         <?php
         if (isset($_SESSION['user_id'])) {
             ?>
+            <button class="fa fa-shopping-cart btnBuy btn btn-primary"  id="checkout"> Checkout <span class="badge badge-light" id="itemcount"></span> items</button>
+            &nbsp;&nbsp;
             <div class='text-white'><i><?php echo "<i class='fa fa-user'></i> " . $_SESSION['full_name'] . " (" . $_SESSION['role'] . ")" ?></i></div>
             &nbsp;&nbsp;
             <form class="form-inline my-2 my-lg-0" method="post" action="doSearchStory.php">

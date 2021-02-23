@@ -55,7 +55,11 @@ mysqli_close($link);
                 </div>
                 <div class="form-group">
                     <label for="idContent">Content:</label>
-                    <textarea class="form-control" name="description" rows="8" cols="70" required></textarea>
+                    <textarea class="form-control" name="content" rows="8" cols="70" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="idContent">Price:</label>
+                    <input id="idPrice" class="form-control" name="price" required> 
                 </div>
                 <div class="form-group">
                     <label for="idImage">Image:</label>
