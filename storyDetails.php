@@ -53,8 +53,8 @@ mysqli_close($link);
         <div class="container">
             <h3><?php echo $row['title']; ?></h3>
             <div class="row">
-                <div class="col-sm-6"><img src="images/<?php echo $row['picture']; ?>" class="img-rounded" style="width: 100%; height: 80%"/></div>
-                <div class="col-sm-6">Category: <b><?php echo $row['name']; ?></b><br/>
+                <div class="col-sm-3"><img src="images/<?php echo $row['picture']; ?>" class="img-rounded" style="width: 100%; height: 90%"/></div>
+                <div class="col-sm-9">Category: <b><?php echo $row['name']; ?></b><br/>
                     Author: <b><?php echo $row['first_name'] . " " . $row['last_name']; ?></b><br/>
                     <br/>
                     <?php echo $row['content']; ?>
