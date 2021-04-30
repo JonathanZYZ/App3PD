@@ -17,7 +17,7 @@ if (isset($_SESSION['username'])) {
         <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
         <title>Story Teller - Logout</title>
     </head>
-    <body>
+    <body style="background-color:#FED766">
         <?php
         include("navbar.php");
         ?>

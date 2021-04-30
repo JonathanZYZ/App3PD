@@ -62,7 +62,7 @@ while ($row = mysqli_fetch_array($result)) {
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     </head>
-    <body>
+    <body  style="background-color:#E6E6EA">
         <?php
         include("navbar.php");
         ?>

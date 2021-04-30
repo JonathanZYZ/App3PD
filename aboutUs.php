@@ -26,7 +26,7 @@ session_start();
 
         </style>
     </head>
-    <body>
+    <body style="background-color:#E6E6EA">
         <?php
         include("navbar.php");
         ?>
