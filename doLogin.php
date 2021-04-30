@@ -36,7 +36,7 @@ if (isset($_POST['username'])) {
         <script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </head>
-    <body>
+    <body style="background-color:#FED766">
         <?php
         include("navbar.php");
         ?>
