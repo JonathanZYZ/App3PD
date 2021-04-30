@@ -1,5 +1,5 @@
 <script src="js/navbar.js" type="text/javascript"></script>
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+<nav class="navbar navbar-expand-md navbar-dark bg-danger">
     <a class="navbar-brand" href="index.php"><strong>Book Publisher <i class="fa fa-book-open" aria-hidden="true"></i></strong></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
