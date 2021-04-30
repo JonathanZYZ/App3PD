@@ -20,7 +20,7 @@
                         <?php } ?>
                     </div>
                 </li>                    
-                <li class="nav-item  bg-primary"> 
+                <li class="nav-item"> 
                     <a class="nav-link" href="logout.php">Logout</a>
                 </li>
             <?php } else { ?>
