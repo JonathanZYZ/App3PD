@@ -47,10 +47,10 @@ session_start();
                 <span class="sr-only">Next</span>
             </a>
         </div>
-<blockquote class="blockquote float-right">
+<!--<blockquote class="blockquote float-right">
   <p class="mb-0">If history were taught in the form of stories, it would never be forgotten.</p>
   <footer class="blockquote-footer"><cite title="Source Title">Rudyard Kipling, The Collected Works</cite></footer>
-</blockquote>
+</blockquote>-->
 
     </body>
 </html>
