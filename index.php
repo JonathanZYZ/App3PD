@@ -17,7 +17,7 @@ session_start();
 
         </style>
     </head>
-    <body>
+    <body style="background-color:#FED766">
         <?php
         include("navbar.php");
         ?>
