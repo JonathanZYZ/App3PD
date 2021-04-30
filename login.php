@@ -16,7 +16,7 @@
             <li class="breadcrumb-item active">Login</li>
         </ol>
         <div class="container">
-            <h3>Story Teller - Login</h3>
+            <h3>Story Teller - Login (Username and Password is GraceAmy)</h3>
             <form method="post" action="doLogin.php">
                 <div class="input-group mb-3">
                     <div class="input-group-prepend">
