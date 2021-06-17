@@ -16,6 +16,7 @@ while ($rowCat = mysqli_fetch_array($resultCat)) {
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Story Teller: Story Summary</title>
         <link href="stylesheets/style.css" rel="stylesheet" type="text/css"/>
                 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>

@@ -17,6 +17,7 @@ mysqli_close($link);
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Story Teller - Story Details</title>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/> 
         <link href="css/all.min.css" rel="stylesheet" type="text/css"/>

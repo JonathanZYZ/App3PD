@@ -11,6 +11,7 @@ $storyCatID = $row['category_id'];
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Story Teller - Edit Story</title>
         <link href="css/bootstrap.bundle.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/all.min.css" rel="stylesheet" type="text/css"/>
