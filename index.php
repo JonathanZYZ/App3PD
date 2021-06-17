@@ -30,13 +30,13 @@ session_start();
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/maxresdefault.jpg" alt="First slide" style="height: 1000px">
+                    <img class="d-block w-100" src="images/maxresdefault.jpg" alt="First slide" style="height: 100%">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="images/5c74358a1631a3614f2df5b4.jpg" alt="Second slide" style="height: 1000px">
+                    <img class="d-block w-100" src="images/5c74358a1631a3614f2df5b4.jpg" alt="Second slide" style="height: 100%">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="images/5c0ad7c045972a242a429018.jpg" alt="Third slide" style="height: 1000px">
+                    <img class="d-block w-100" src="images/5c0ad7c045972a242a429018.jpg" alt="Third slide" style="height: 100%">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
