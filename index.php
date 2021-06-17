@@ -4,6 +4,7 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Book Publisher: Our Books</title>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/all.min.css" rel="stylesheet" type="text/css"/>
@@ -29,7 +30,7 @@ session_start();
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/maxresdefault.jpg" alt="First slide" style="height: 100%">
+                    <img class="d-block w-100" src="images/maxresdefault.jpg" alt="First slide" style="height: 1000px">
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="images/5c74358a1631a3614f2df5b4.jpg" alt="Second slide" style="height: 1000px">
