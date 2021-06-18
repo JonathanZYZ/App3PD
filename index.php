@@ -30,7 +30,7 @@ session_start();
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/maxresdefault.jpg" alt="First slide" style="height: 300px">
+                    <img class="d-block w-100" src="images/maxresdefault.jpg" alt="First slide" style="height: 50%">
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="images/5c74358a1631a3614f2df5b4.jpg" alt="Second slide" style="height: 300px">
